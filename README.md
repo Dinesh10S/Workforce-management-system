@@ -74,6 +74,7 @@ workforce-project/
 │
 ├── database/
 │ └── workforce.sql
+`
 ---
 ## ⚙️ Setup Instructions
 
