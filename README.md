@@ -39,6 +39,10 @@ It provides a centralized platform for supervisors and managers to monitor and c
 
 ---
 ## 📸 Screenshots
+### 🔹 Login page
+<p align="center">
+  <img src="login page.png" width="700"/>
+</p>
 
 ### 🔹 Dashboard
 <p align="center">
@@ -59,10 +63,6 @@ It provides a centralized platform for supervisors and managers to monitor and c
 ### 🔹 Shifts Page
 <p align="center">
   <img src="shift page.png" width="700"/>
-</p>
-### 🔹 Login page
-<p align="center">
-  <img src="login page.png" width="700"/>
 </p>
 
 ## 🛠️ Technology Stack
