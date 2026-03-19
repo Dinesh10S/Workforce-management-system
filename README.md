@@ -38,6 +38,32 @@ It provides a centralized platform for supervisors and managers to monitor and c
 - Shows key metrics like total workers and attendance
 
 ---
+## 📸 Screenshots
+
+### 🔹 Dashboard
+<p align="center">
+  <img src="dashboard.png" width="700"/>
+</p>
+
+### 🔹 Workers Page
+<p align="center">
+  <img src="wroker page1.png" width="700"/>
+ <img src="wroker page2.png" width="700"/>
+</p>
+
+### 🔹 Attendance Page
+<p align="center">
+  <img src="attendance page.png" width="700"/>
+</p>
+
+### 🔹 Shifts Page
+<p align="center">
+  <img src="shift page.png" width="700"/>
+</p>
+### 🔹 Login page
+<p align="center">
+  <img src="login page.png" width="700"/>
+</p>
 
 ## 🛠️ Technology Stack
 
