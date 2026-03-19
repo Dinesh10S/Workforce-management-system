@@ -56,26 +56,23 @@ It provides a centralized platform for supervisors and managers to monitor and c
 ---
 
 ## 📂 Project Structure
-
-workforce-project
+workforce-project/
 │
-├── frontend
+├── frontend/
 │ ├── dashboard.html
 │ ├── workers.html
 │ ├── attendance.html
 │ ├── shifts.html
-│ ├── CSS / JS files
+│ ├── css/
+│ └── js/
 │
-├── backend
+├── backend/
 │ ├── src/
-│ ├── pom.xml
+│ └── pom.xml
 │
-├── database
+├── database/
 │ └── workforce.sql
-
-
 ---
-
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone Repository
