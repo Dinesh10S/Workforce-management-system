@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="logo-container">
+    <img src="nokia-logo.jpeg" alt="Nokia Logo">
+    <span>NOKIA</span>
+</div>
+        <ul>
+    <li class="active"><i class="fa-solid fa-chart-line"></i> Dashboard</li>
+    <li id="workersMenu"><i class="fa-solid fa-users"></i> Workers</li>
+    <li id="shiftsMenu"><i class="fa-solid fa-clock"></i> Shifts</li>
+    <li id="attendanceMenu"><i class="fa-solid fa-calendar-check"></i> Attendance</li>
+    <li id="logoutMenu"><i class="fa-solid fa-right-from-bracket"></i> Logout</li>
+</ul>
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+        <div class="header">
+            <h1>Dashboard</h1>
+        </div>
+
+        <!-- Cards -->
+        <div class="cards">
+            <div class="card">
+                <h3>Total Workers</h3>
+                <p id="totalWorkers">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Present Today</h3>
+                <p id="presentToday">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Absent Today</h3>
+                <p id="absentToday">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Upcoming Shifts</h3>
+                <p id="upcomingShifts">0</p>
+            </div>
+        </div>
+
+        <!-- Chart Section -->
+        <div class="chart-container">
+            <h2>Attendance Overview</h2>
+            <canvas id="attendanceChart"></canvas>
+        </div>
+    </div>
+
+</div>
+
+<script src="dashboard.js"></script>
+</body>
+</html>

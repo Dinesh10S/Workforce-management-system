@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Workers</title>
+<link rel="stylesheet" href="workers.css">
+</head>
+
+<body>
+
+<!-- Header -->
+<div class="top-header">
+    <div class="brand">
+        <img src="nokia-logo.jpeg" class="logo">
+        <span>NOKIA</span>
+    </div>
+
+    <h2>Workers</h2>
+</div>
+
+<div class="main-container">
+
+<!-- RIGHT SIDE FULL -->
+<div class="right-panel">
+
+<h3>Worker Details</h3>
+
+<!-- ACTION BUTTONS (Manager only) -->
+<div class="top-actions">
+
+<button id="editBtn" onclick="enableEdit()" class="btn">Edit</button>
+<button id="addBtn" onclick="showAddForm()" class="btn">Add</button>
+
+</div>
+
+<!-- ADD FORM (hidden initially) -->
+<div id="addSection" style="display:none; margin-bottom:15px;">
+
+<input type="text" id="name" placeholder="Name">
+<input type="text" id="empId" placeholder="Employee ID">
+<input type="text" id="dept" placeholder="Department">
+<input type="text" id="phone" placeholder="Phone">
+
+<button onclick="addWorker()" class="btn">Save Worker</button>
+
+</div>
+
+<table>
+
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Department</th>
+<th>Phone</th>
+<th id="actionHeader" style="display:none;">Action</th>
+</tr>
+
+<tbody id="workerTable"></tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<script src="workers.js"></script>
+
+</body>
+</html>

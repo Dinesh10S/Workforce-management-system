@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Shifts</title>
+<link rel="stylesheet" href="shifts.css">
+</head>
+
+<body>
+
+<div class="top-header">
+    <div class="brand">
+        <img src="nokia-logo.jpeg" class="logo">
+        <span>NOKIA</span>
+    </div>
+    <h2>Shifts</h2>
+</div>
+
+<div class="container">
+
+<div class="card">
+
+<h3>Shift Management</h3>
+
+<div class="top-actions">
+    <button id="addBtn" onclick="showForm()" class="btn">Add Shift</button>
+</div>
+
+<div id="formSection" style="display:none;">
+
+<input id="empId" placeholder="Employee ID">
+<input id="shiftType" placeholder="Shift (Morning/Afternoon/Night)">
+<input id="date" type="date">
+
+<button onclick="saveShift()" class="btn">Save Shift</button>
+
+</div>
+
+<table>
+
+<tr>
+<th>Employee ID</th>
+<th>Shift</th>
+<th>Date</th>
+<th id="actionHeader">Action</th>
+</tr>
+
+<tbody id="shiftTable"></tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<script src="shifts.js"></script>
+
+</body>
+</html>
