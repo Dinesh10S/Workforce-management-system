@@ -47,7 +47,7 @@ It provides a centralized platform for supervisors and managers to monitor and c
 
 ### 🔹 Workers Page
 <p align="center">
-  <img src="wroker page1.png" width="700"/>
+  <img src="wroker page1.png" width="700"/><br>
  <img src="wroker page2.png" width="700"/>
 </p>
 
