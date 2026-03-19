@@ -56,6 +56,8 @@ It provides a centralized platform for supervisors and managers to monitor and c
 ---
 
 ## 📂 Project Structure
+
+
 workforce-project/
 │
 ├── frontend/
